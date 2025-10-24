@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insurance Application - SureLife Insurance Ltd</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>SureLife Insurance Ltd</h1>
+    <p>Your Life, Our Priority</p>
+    <nav class="header-nav">
+      <a href="login.html">Customer Login</a>
+    </nav>
+  </header>
+
+  <section class="form-container">
+    <h2>Insurance Application Form</h2>
+    <form action="#" method="post">
+      <label>Full Name:</label>
+      <input type="text" name="fullname" required>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" value="kariukisam300@gmail.com" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" name="phone" value="0742627929" required>
+
+      <label>Address:</label>
+      <input type="text" name="address" value="Nairobi, Kenya" required>
+
+      <label>Insurance Type:</label>
+      <select name="type" required>
+        <option value="">-- Select Type --</option>
+        <option value="life">Life Insurance</option>
+        <option value="health">Health Insurance</option>
+        <option value="vehicle">Vehicle Insurance</option>
+        <option value="home">Home Insurance</option>
+      </select>
+
+      <label>Coverage Amount (KSh):</label>
+      <input type="number" name="coverage" required>
+
+      <label>Preferred Start Date:</label>
+      <input type="date" name="startdate" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 SureLife Insurance Ltd | Nairobi, Kenya | Phone: 0742627929</p>
+  </footer>
+</body>
+</html>
