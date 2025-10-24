@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Claim Form - SureLife Insurance Ltd</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Insurance Claim Form</h1>
+    <nav class="header-nav">
+      <a href="login.html">Customer Login</a>
+    </nav>
+  </header>
+
+  <section class="form-container">
+    <form action="#" method="post">
+      <label>Policy Number:</label>
+      <input type="text" name="policy" required>
+
+      <label>Full Name:</label>
+      <input type="text" name="fullname" required>
+
+      <label>Email Address:</label>
+      <input type="email" name="email" required>
+
+      <label>Phone Number:</label>
+      <input type="tel" name="phone">
+
+      <label>Date of Incident:</label>
+      <input type="date" name="incident_date" required>
+
+      <label>Description of Incident:</label>
+      <textarea name="description" rows="5" placeholder="Explain what happened..." required></textarea>
+
+      <label>Estimated Claim Amount (KSh):</label>
+      <input type="number" name="claim_amount" required>
+
+      <button type="submit">Submit Claim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>SureLife Insurance Ltd | Nairobi, Kenya | © 2025 All Rights Reserved</p>
+  </footer>
+</body>
+</html>
